@@ -70,10 +70,26 @@ a {
 
 .promo {
     box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
-    background: #fff1b8 url(../img/promo-image.png) no-repeat right;
     border-radius: 10px;
     padding: 40px 70px;
     margin-bottom: 56px;
+}
+
+.promo-1 {
+    background: #fff1b8 url(../img/promo-image.png) no-repeat right;
+}
+
+.promo-2 {
+    background: #19d7f0 url(../img/promo-image.png) no-repeat right;
+}
+
+.promo-3 {
+    background: #eec007;
+    border-radius: 40px;
+}
+
+.promo-4 {
+    background: #e7e5de url(../img/promo-image.png) no-repeat right;
 }
 
 .promo-title {
