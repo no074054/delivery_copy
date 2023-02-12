@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
     <div class="container">
@@ -39,14 +41,34 @@
     <main class="main">
         <div class="container">
             
-            <section class="container-promo">
-                <section class="promo">
-                    <h1 class="promo-title">Онлайн-сервис <br> доставки еды на дом</h1>
-                    <p class="promo-text">
-                        Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
-                    </p>
+            <div class="swiper-container">
+                <section class="container-promo swiper-wrapper">
+                    <section class="promo promo-1 swiper-slide">
+                        <h1 class="promo-title">Онлайн-сервис <br> доставки еды на дом</h1>
+                        <p class="promo-text">
+                            Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
+                        </p>
+                    </section>
+                    <section class="promo promo-2 swiper-slide">
+                        <h1 class="promo-title">Шашлыки на майские <br> со скидкой 35%</h1>
+                        <p class="promo-text">
+                            Закажите шашлыки в любом ресторане до 10 мая и получите скидку по промокоду
+                        </p>
+                    </section>
+                    <section class="promo promo-3 swiper-slide">
+                        <h1 class="promo-title">Скидки 20% на всю еду <br> по промокоду LOVE.JS</h1>
+                        <p class="promo-text">
+                            Блюдо из ресторана привезут вместе с двумя подарочными книгами по фронтенду
+                        </p>
+                    </section>
+                    <section class="promo promo-4 swiper-slide">
+                        <h1 class="promo-title">Сеты со скидкой до 30% <br> в ресторанах</h1>
+                        <p class="promo-text">
+                            Скидки на сеты до 30 мая по промокоду DADADA
+                        </p>
+                    </section>
                 </section>
-            </section>
+            </div>
                     
             <section class="restaurants">
                 <div class="section-heading">
@@ -62,12 +84,12 @@
                 <div class="restaurant-heading">
                     <h2 class="restaurant-title">PizzaBurger</h2>
                     <div class="card-info-restaurant">
-                        <div class="card-rating">
+                        <div class="card-rating restaurant-rating">
                             <img src="img/rating.svg" alt="rating">
                             4.5
                         </div>
-                        <div class="price">От 700 $</div>
-                        <div class="category">Пицца</div>
+                        <div class="price restaurant-price">От 700 $</div>
+                        <div class="category restaurant-category">Пицца</div>
                     </div>
                 </div>
                 <div class="cards cards-menu">
@@ -177,6 +199,8 @@
         </div>
     </div>
 
+    <script src="js/swiper-bundle.min.js"></script>
+    
     <script src="js/disabledScroll.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
